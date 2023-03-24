@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App div {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+nav {
+  background-color: rgb(184, 208, 231);
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #332e52;
+  margin: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+
+
+.active {
+  background-color: #cde5c2;
+}
+
+.post__item {
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.post__item-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.post__item-text {
+  padding: 10px;
+}
+
+.post__item button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffe2e2;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.post__item button:hover {
+  background-color: #fdcccc;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 30px;
+}
+
+form input,
+button,
+textarea {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  outline: none;
+}
+form input{
+  box-shadow: rgba(112, 112, 112, 0.2) 0px 15px 30px -6px inset, rgba(112, 112, 112, 0.2) 0px 6px 10px -10px inset;
+}
+form textarea{
+  box-shadow: rgba(112, 112, 112, 0.2) 0px 15px 30px -6px inset, rgba(112, 112, 112, 0.2) 0px 6px 10px -10px inset;
+}
+
+form button {
+  cursor: pointer;
+  background-color: #e0ffd3;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+form button:hover {
+  background-color: #cde5c2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
